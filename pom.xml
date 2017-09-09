@@ -38,6 +38,14 @@
             <name>happylifeplat public repository</name>
             <url>http://maven.wang-guanjia.com/nexus/content/groups/public/</url>
         </repository>
+		<repository>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<id>wuyuan_public</id>
+			<name>ivysboy public repository</name>
+			<url>http://maven.ivysboy.com/nexus/content/groups/public/</url>
+		</repository>
     </repositories>
 
 	<distributionManagement>
